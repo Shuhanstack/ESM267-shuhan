@@ -1,3 +1,12 @@
+### For future me on a new Mac (if I'm still a Mac user), to have GDAL (from QGIS) work properly:
+### in ~/.bash_profile, add:
+### export PATH="$PATH:/Applications/QGIS.app/Contents/MacOS/bin"
+### export GDAL_DATA="/Applications/QGIS.app/Contents/Resources/gdal"
+### export PROJ_LIB="/Applications/QGIS.app/Contents/Resources/proj"
+### then touch ~/.bash_profile, restart terminal
+###
+###--------------------------Official beginning of assignment 1-----------------------------------
+###
 ### Glass fire was taken place in Napa and Sonoma from Sep 27, 2020 to Oct 20, 2020
 ### Lake county is included to provide a betteer view
 ### https://www.fire.ca.gov/incidents/2020/9/27/glass-fire/
