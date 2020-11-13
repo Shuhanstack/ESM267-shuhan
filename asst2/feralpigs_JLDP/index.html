@@ -66,6 +66,25 @@
         layer_OpenStreetMap_0;
         map.addLayer(layer_OpenStreetMap_0);
         function pop_Treedominatedalliance_1(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">VegClass</th>\
+                        <td>' + (feature.properties['VegClass'] !== null ? autolinker.link(feature.properties['VegClass'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Comments'] !== null ? autolinker.link(feature.properties['Comments'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Rank'] !== null ? autolinker.link(feature.properties['Rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Acres'] !== null ? autolinker.link(feature.properties['Acres'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['GlobalID'] !== null ? autolinker.link(feature.properties['GlobalID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
         function style_Treedominatedalliance_1_0() {
@@ -98,6 +117,25 @@
         bounds_group.addLayer(layer_Treedominatedalliance_1);
         map.addLayer(layer_Treedominatedalliance_1);
         function pop_Shrubdominatedalliance_2(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">VegClass</th>\
+                        <td>' + (feature.properties['VegClass'] !== null ? autolinker.link(feature.properties['VegClass'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Comments'] !== null ? autolinker.link(feature.properties['Comments'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Rank'] !== null ? autolinker.link(feature.properties['Rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Acres'] !== null ? autolinker.link(feature.properties['Acres'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['GlobalID'] !== null ? autolinker.link(feature.properties['GlobalID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
         function style_Shrubdominatedalliance_2_0() {
@@ -130,6 +168,25 @@
         bounds_group.addLayer(layer_Shrubdominatedalliance_2);
         map.addLayer(layer_Shrubdominatedalliance_2);
         function pop_Herbdominatedalliance_3(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">VegClass</th>\
+                        <td>' + (feature.properties['VegClass'] !== null ? autolinker.link(feature.properties['VegClass'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Comments'] !== null ? autolinker.link(feature.properties['Comments'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Rank'] !== null ? autolinker.link(feature.properties['Rank'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Acres'] !== null ? autolinker.link(feature.properties['Acres'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['GlobalID'] !== null ? autolinker.link(feature.properties['GlobalID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
         function style_Herbdominatedalliance_3_0() {
@@ -162,6 +219,24 @@
         bounds_group.addLayer(layer_Herbdominatedalliance_3);
         map.addLayer(layer_Herbdominatedalliance_3);
         function pop_Wetlandsandwaters_4(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FieldID'] !== null ? autolinker.link(feature.properties['FieldID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['MapLabel'] !== null ? autolinker.link(feature.properties['MapLabel'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type_Abbr'] !== null ? autolinker.link(feature.properties['Type_Abbr'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['GlobalID'] !== null ? autolinker.link(feature.properties['GlobalID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
         function style_Wetlandsandwaters_4_0() {
@@ -194,6 +269,24 @@
         bounds_group.addLayer(layer_Wetlandsandwaters_4);
         map.addLayer(layer_Wetlandsandwaters_4);
         function pop_Streams_5(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['FieldID'] !== null ? autolinker.link(feature.properties['FieldID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['MapLabel'] !== null ? autolinker.link(feature.properties['MapLabel'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type'] !== null ? autolinker.link(feature.properties['Type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Type_Abbr'] !== null ? autolinker.link(feature.properties['Type_Abbr'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['GlobalID'] !== null ? autolinker.link(feature.properties['GlobalID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
         function style_Streams_5_0() {
@@ -204,7 +297,7 @@
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
-                weight: 1.0,
+                weight: 2.0,
                 fillOpacity: 0,
                 interactive: false,
             }
@@ -224,6 +317,39 @@
         bounds_group.addLayer(layer_Streams_5);
         map.addLayer(layer_Streams_5);
         function pop_Streamcrossings_6(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['AM_ID'] !== null ? autolinker.link(feature.properties['AM_ID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['constraint'] !== null ? autolinker.link(feature.properties['constraint'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['type_long'] !== null ? autolinker.link(feature.properties['type_long'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['type_short'] !== null ? autolinker.link(feature.properties['type_short'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['cond_str'] !== null ? autolinker.link(feature.properties['cond_str'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['cond_hyd'] !== null ? autolinker.link(feature.properties['cond_hyd'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['vehicle'] !== null ? autolinker.link(feature.properties['vehicle'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['maint_reco'] !== null ? autolinker.link(feature.properties['maint_reco'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['comments'] !== null ? autolinker.link(feature.properties['comments'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['GlobalID'] !== null ? autolinker.link(feature.properties['GlobalID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
         function style_Streamcrossings_6_0() {
@@ -288,7 +414,7 @@
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 3.0, 
+                weight: 4.0, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(213,180,60,0.0)',
@@ -378,7 +504,7 @@
                         <td colspan="2">' + (feature.properties['Year'] !== null ? autolinker.link(feature.properties['Year'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2"><strong>GlobalID</strong><br />' + (feature.properties['GlobalID'] !== null ? autolinker.link(feature.properties['GlobalID'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['GlobalID'] !== null ? autolinker.link(feature.properties['GlobalID'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
@@ -387,7 +513,7 @@
         function style_Westernsnowyplover_9_0() {
             return {
                 pane: 'pane_Westernsnowyplover_9',
-                radius: 4.800000000000001,
+                radius: 4.8,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
                 dashArray: '',
@@ -513,7 +639,7 @@
         bounds_group.addLayer(layer_Feralpigsgroupsize_10);
         map.addLayer(layer_Feralpigsgroupsize_10);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'Feral pigs group size<br /><table><tr><td style="text-align: center;"><img src="legend/Feralpigsgroupsize_10_120.png" /></td><td>1 - 2</td></tr><tr><td style="text-align: center;"><img src="legend/Feralpigsgroupsize_10_341.png" /></td><td>3 - 4</td></tr><tr><td style="text-align: center;"><img src="legend/Feralpigsgroupsize_10_572.png" /></td><td>5- 7</td></tr></table>': layer_Feralpigsgroupsize_10,'<img src="legend/Westernsnowyplover_9.png" /> Western snowy plover': layer_Westernsnowyplover_9,'<img src="legend/Railroad_8.png" /> Railroad': layer_Railroad_8,'<img src="legend/Preserveboundary_7.png" /> Preserve boundary': layer_Preserveboundary_7,'<img src="legend/Streamcrossings_6.png" /> Stream crossings': layer_Streamcrossings_6,'<img src="legend/Streams_5.png" /> Streams': layer_Streams_5,'<img src="legend/Wetlandsandwaters_4.png" /> Wetlands and waters': layer_Wetlandsandwaters_4,'<img src="legend/Herbdominatedalliance_3.png" /> Herb-dominated alliance': layer_Herbdominatedalliance_3,'<img src="legend/Shrubdominatedalliance_2.png" /> Shrub-dominated alliance': layer_Shrubdominatedalliance_2,'<img src="legend/Treedominatedalliance_1.png" /> Tree-dominated alliance': layer_Treedominatedalliance_1,"OpenStreetMap": layer_OpenStreetMap_0,}).addTo(map);
+        L.control.layers(baseMaps,{'Feral pigs group size<br /><table><tr><td style="text-align: center;"><img src="legend/Feralpigsgroupsize_10_120.png" /></td><td>1 - 2</td></tr><tr><td style="text-align: center;"><img src="legend/Feralpigsgroupsize_10_341.png" /></td><td>3 - 4</td></tr><tr><td style="text-align: center;"><img src="legend/Feralpigsgroupsize_10_572.png" /></td><td>5- 7</td></tr></table>': layer_Feralpigsgroupsize_10,'<img src="legend/Westernsnowyplover_9.png" /> Western snowy plover': layer_Westernsnowyplover_9,'<img src="legend/Railroad_8.png" /> Railroad': layer_Railroad_8,'<img src="legend/Preserveboundary_7.png" /> Preserve boundary': layer_Preserveboundary_7,'<img src="legend/Streamcrossings_6.png" /> Stream crossings': layer_Streamcrossings_6,'<img src="legend/Streams_5.png" /> Streams': layer_Streams_5,'<img src="legend/Wetlandsandwaters_4.png" /> Wetlands and waters': layer_Wetlandsandwaters_4,'<img src="legend/Herbdominatedalliance_3.png" /> Herb-dominated alliance': layer_Herbdominatedalliance_3,'<img src="legend/Shrubdominatedalliance_2.png" /> Shrub-dominated alliance': layer_Shrubdominatedalliance_2,'<img src="legend/Treedominatedalliance_1.png" /> Tree-dominated alliance': layer_Treedominatedalliance_1,"OpenStreetMap": layer_OpenStreetMap_0,},{collapsed:false}).addTo(map);
         setBounds();
         </script>
     </body>
